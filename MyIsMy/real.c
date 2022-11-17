@@ -30,7 +30,7 @@ int main()
         printf("%s\n%s\n%ld MB\n",buff, name, mem/1024);
         fclose(fd);
 
-        reduceFreeRam = mem*1024 * 0.81;
+        reduceFreeRam = mem*1024 * 0.85;
         printf("需要吃掉的内存: %.ld MB\n", reduceFreeRam/1024/1024);
 
         eatMemory = (unsigned char *)malloc(reduceFreeRam);
