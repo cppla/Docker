@@ -6,7 +6,7 @@
 #include "stdlib.h"
 #include "unistd.h"
 
-#define SLEEP_TIME 60*60*12
+#define SLEEP_TIME 60*60*1200
 
 int main()
 {
