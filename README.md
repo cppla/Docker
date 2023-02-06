@@ -13,5 +13,5 @@ docker run -ti --name=unixbench unixbench ./Run
 # MyIsMy
 榨干闲置的服务器资源
 
-docker build -f Dockerfile -t real .
+docker build -f Dockerfile -t real .    
 docker run -d --restart=always --name=real  real 
